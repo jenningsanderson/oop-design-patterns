@@ -19,8 +19,10 @@ Chain of Responsibility
 "**Intent** Avoid coupling by giving more than one object a chance to handle a request.  Pass request along the chain until an object handles it" [1]
 
 ###Design
-The first object in the chain receives the request and either handles it or forwards it to the next candidate on the chain, which does likewise
+Requires a very specific structure to be useful, typically UI
 
+- Useful for UI design: Help menus
+- Useful for Loggers
 
 
 
@@ -34,8 +36,9 @@ Command
 ###Design
 An abstract command class which declares an interface for executing operations.
 
-
-
+Using commands such as “execute” or “unexecute” allows the following:
+	
+	commands.each{ |command| command.execute}
 
 ##References
 1. Gamma, Helm, Johnson, Vlissides.  Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four)
