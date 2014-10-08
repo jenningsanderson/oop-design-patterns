@@ -29,7 +29,7 @@ The first object in the chain receives the request and either handles it or forw
 
 Command
 -------
-"**Intent** Encapsulate a request as an object, thereby letting you parameterize clients with different requests, que or log requests, and support undoable operations."
+"**Intent** Encapsulate a request as an object, thereby letting you parameterize clients with different requests, que or log requests, and support undoable operations" [1].
 
 ###Design
 An abstract command class which declares an interface for executing operations.
@@ -38,5 +38,5 @@ An abstract command class which declares an interface for executing operations.
 
 
 ##References
-[1] Gamma, Helm, Johnson, Vlissides.  Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four)
-[2] Nasevic, Dalibor  http://dalibornasevic.com/posts/9-ruby-singleton-pattern
+1. Gamma, Helm, Johnson, Vlissides.  Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four)
+2. Nasevic, Dalibor  http://dalibornasevic.com/posts/9-ruby-singleton-pattern
