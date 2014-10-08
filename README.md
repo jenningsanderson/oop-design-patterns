@@ -40,3 +40,4 @@ An abstract command class which declares an interface for executing operations.
 ##References
 1. Gamma, Helm, Johnson, Vlissides.  Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four)
 2. Nasevic, Dalibor  http://dalibornasevic.com/posts/9-ruby-singleton-pattern
+3. Slocum, Nick		https://github.com/nslocum/design-patterns-in-ruby
