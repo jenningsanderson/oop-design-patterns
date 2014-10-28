@@ -81,6 +81,6 @@ if __FILE__ == $0
 
 	commands.execute
 
-	#commands.unexecute
+	commands.unexecute
 
 end
