@@ -2,7 +2,7 @@ Design Patterns
 =================
 
 
-Singleton
+1. Singleton
 ---------
 "**Intent** Ensure a class only has one instance, and provide a global point of access to it" [1].
 
@@ -14,7 +14,7 @@ Implementations of this pattern include loggers and database connections [2].
 
 
 
-Chain of Responsibility
+2. Chain of Responsibility
 -----------------------
 "**Intent** Avoid coupling by giving more than one object a chance to handle a request.  Pass request along the chain until an object handles it" [1]
 
@@ -29,7 +29,7 @@ Requires a very specific structure to be useful, typically UI
 
 
 
-Command
+3. Command
 -------
 "**Intent** Encapsulate a request as an object, thereby letting you parameterize clients with different requests, que or log requests, and support undoable operations" [1].
 
@@ -44,19 +44,19 @@ Using commands such as “execute” or “unexecute” allows the following:
 
 
 
-Bridge
+4. Bridge
 --------
 Decouple an instance from its implementation by abstracting the implementation as well [4].
 
 
 
-Strategy
+5. Strategy
 --------
 Encapsulate each algorithm in a group, making them interchangeable.  This allows algorithms to vary independently from clients that use them [4].
 
 
 
-Template
+6. Template
 --------
 
 
