@@ -40,7 +40,30 @@ Using commands such as “execute” or “unexecute” allows the following:
 	
 	commands.each{ |command| command.execute}
 
+
+
+
+
+Bridge
+--------
+Decouple an instance from its implementation by abstracting the implementation as well [4].
+
+
+
+Strategy
+--------
+Encapsulate each algorithm in a group, making them interchangeable.  This allows algorithms to vary independently from clients that use them [4].
+
+
+
+Template
+--------
+
+
+
 ##References
 1. Gamma, Helm, Johnson, Vlissides.  Design Patterns: Elements of Reusable Object-Oriented Software (Gang of Four)
 2. Nasevic, Dalibor  http://dalibornasevic.com/posts/9-ruby-singleton-pattern
 3. Slocum, Nick		https://github.com/nslocum/design-patterns-in-ruby
+4. Freeman, Eric, et al. Head First design patterns. Sebastopol, CA: O'Reilly, 2004. Print.
+
