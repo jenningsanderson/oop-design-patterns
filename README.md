@@ -6,7 +6,7 @@ Singleton
 ---------
 "**Intent** Ensure a class only has one instance, and provide a global point of access to it" [1].
 
-###Design
+####Design
 The only way to access the class is through the one instance.  The best way to do this is probably to protect or make private the constructors [1].
 
 Implementations of this pattern include loggers and database connections [2].
@@ -18,7 +18,7 @@ Chain of Responsibility
 -----------------------
 "**Intent** Avoid coupling by giving more than one object a chance to handle a request.  Pass request along the chain until an object handles it" [1]
 
-###Design
+####Design
 Requires a very specific structure to be useful, typically UI
 
 - Useful for UI design: Help menus
@@ -33,7 +33,7 @@ Command
 -------
 "**Intent** Encapsulate a request as an object, thereby letting you parameterize clients with different requests, que or log requests, and support undoable operations" [1].
 
-###Design
+####Design
 An abstract command class which declares an interface for executing operations.
 
 Using commands such as “execute” or “unexecute” allows the following:
