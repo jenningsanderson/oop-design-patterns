@@ -24,7 +24,7 @@ class Calculator
 	attr_reader :nums, :ops
 
 	def initialize(args)
-		@nums = args[:nums]
+		@nums = args[:nums] #.collect{|num| num.to_f}
 		@ops  = args[:ops]
 		if ops.length == 1
 			@ops = [ops[0]] * (nums.length-1)
@@ -59,4 +59,5 @@ if __FILE__ == $0
 	ops  = [Add.new, Subtract.new]
 	calc = Calculator.new(nums: nums, ops: ops)
 	calc.run
+
 end
