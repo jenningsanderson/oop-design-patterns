@@ -1,8 +1,7 @@
+#
 # Bridge Design Pattern Implementation in Ruby
 #
-# OOP A&D
 #
-# October 29, 2014
 
 #Abstract 
 class Computer
@@ -14,7 +13,7 @@ class Computer
 	end
 end
 
-#Implementor
+#Implementor (Also abstract)
 class Display
 	attr_reader :size, :make
 
